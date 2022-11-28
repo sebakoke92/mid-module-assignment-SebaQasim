@@ -88,8 +88,7 @@ if __name__=== "__main__":
 
 end_time = datetime.datetime.now()
 print(end_time - start_time)
-    # rptree.py
-# Snip...
+  
 
 class DirectoryTree:
     def __init__(self, root_dir):
