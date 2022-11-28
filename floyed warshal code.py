@@ -68,7 +68,7 @@ class TestStringMethod (unittest.TestCase):
     # test function to test equality of two value 
     def test_positive(self):
         output_list =graph
-        expected list =[
+        expected_list =[
             [0,7,12,8],
             [INF,0,5,7],
             [INF,INF,0,2],
@@ -80,7 +80,7 @@ class TestStringMethod (unittest.TestCase):
         #assertEqual() to check equality of first & second value 
         self.assertEqual(expected_list, output_list)
 
-if __name__=== "__main__":
+if __name__== "__main__":
      unittest.main()
 
 
